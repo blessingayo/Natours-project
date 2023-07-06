@@ -145,9 +145,7 @@ body {
     -webkit-transform: translateY(3rem);
             transform: translateY(3rem);
   }
-  /* 60%{
-          transform: rotate(120deg);
-      } */
+
   80% {
     -webkit-transform: translateX(2rem);
             transform: translateX(2rem);
@@ -165,9 +163,7 @@ body {
     -webkit-transform: translateY(3rem);
             transform: translateY(3rem);
   }
-  /* 60%{
-          transform: rotate(120deg);
-      } */
+
   80% {
     -webkit-transform: translateX(2rem);
             transform: translateX(2rem);
