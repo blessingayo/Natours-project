@@ -904,7 +904,22 @@ body {
     width: 100%;
     padding: 4rem;
     padding-left: 7rem;
+    -webkit-transform: skewX(-0deg);
+          transform: skewX(-0deg);
   }
+
+  .story > * {
+  -webkit-transform: skewX(0deg) !important;
+          transform: skewX(0deg) !important;
+}
+
+.story__text{
+    -webkit-transform: skewX(0deg) !important;
+          transform: skewX(0deg) !important;
+}
+
+
+  
 }
 
 
