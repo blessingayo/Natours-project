@@ -256,7 +256,8 @@ body {
 
 @media only screen and (max-width: 37.5em) {
   .heading-secondary {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
+    margin-top: 20rem;
   }
 }
 
@@ -276,7 +277,7 @@ body {
   font-size: 1.6rem;
 }
 
-.paragraphy:not(:last-child) {
+.paragraphy:not(:last-child)  {
   margin-bottom: 3rem;
 }
 
@@ -296,6 +297,26 @@ body {
   .u-margin-bottom-medium {
     margin-bottom: 3rem !important;
   }
+
+  .paragraphy:not(:last-child) {
+    width: 80% !important;
+    margin: 0 auto;
+     margin-bottom: 3rem !important;
+  }
+}
+
+@media only screen and (max-width: 800em) {
+
+  .paragraphy:not(:last-child) {
+    width: 100% !important;
+    margin: 0 auto;
+     margin-bottom: 3rem !important;
+     font-size: 16px !important;
+  }
+
+  .heading-tertiary{
+    font-size: 18px !important;
+  }
 }
 
 .u-margin-bottom-big {
@@ -305,6 +326,7 @@ body {
 @media only screen and (max-width: 56.25em) {
   .u-margin-bottom-big {
     margin-bottom: 5rem  !important;
+    margin-top: -10rem;
   }
 }
 
@@ -496,6 +518,7 @@ body {
           transform: scale(0.95);
 }
 
+
 .feature-box {
   background-color: rgba(254, 254, 254, 0.8);
   font-size: 1.5rem;
@@ -510,11 +533,26 @@ body {
   transition: transform .3s, -webkit-transform .3s;
 }
 
+
 @media only screen and (max-width: 56.25em) {
   .feature-box {
     padding: 2rem;
+    height: 180px !important;
+  }
+
+  .story-cards{
+    flex-direction: column;
+    width: 80%;
   }
 }
+
+/* @media only screen and (max-width: 280em) {
+  .feature-box {
+    padding: 2rem;
+    height: 260px !important;
+  }
+} */
+
 
 .feature-box__icon {
   font-size: 6rem;
@@ -555,7 +593,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 23vw;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: 3px;
@@ -611,6 +649,7 @@ body {
 .card__picture--1 {
   background-image: -webkit-gradient(linear, left top, right bottom, from(#ffb900), to(#ff7730)), url(../image/nat-5.jpg);
   background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../image/nat-5.jpg);
+  
 }
 
 .card__picture--2 {
@@ -670,6 +709,7 @@ body {
   text-align: center;
   font-size: 1.5rem;
   padding: 1rem;
+  color: rgb(72, 72, 72);
 }
 
 .card__details ul li:not(:last-child) {
@@ -715,6 +755,7 @@ body {
     position: relative;
     -webkit-box-shadow: none;
             box-shadow: none;
+            width: 100% !important;
   }
   .card__side--back {
     -webkit-transform: rotateY(0);
@@ -880,6 +921,7 @@ body {
   }
 }
 
+
 .story > * {
   -webkit-transform: skewX(12deg);
           transform: skewX(12deg);
@@ -959,6 +1001,12 @@ body {
   z-index: -1;
   opacity: .10;
   overflow: hidden;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .bg-video {
+    opacity: .3;
+  }
 }
 
 .bg-video__content {
@@ -1074,6 +1122,7 @@ body {
 @media only screen and (max-width: 56.25em) {
   .row {
     max-width: 50rem;
+    flex-direction: column
   }
 }
 
@@ -1088,12 +1137,19 @@ body {
 }
 
 .row [class^="col-"]:not(:last-child) {
-  margin-right: 6rem;
+  margin-right: 4rem;
 }
 
 @media only screen and (max-width: 56.25em) {
   .row [class^="col-"]:not(:last-child) {
     margin-right: 0;
+    margin-bottom: 6rem;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 280em) {
+  .row [class^="col-"]:not(:last-child) {
     margin-bottom: 6rem;
   }
 }
@@ -1101,6 +1157,7 @@ body {
 @media only screen and (max-width: 56.25em) {
   .row [class^="col-"] {
     width: 100% !important;
+    text-align: center;
   }
 }
 
@@ -1429,13 +1486,19 @@ body {
 
 .section-about {
   background-color: #f7f7f7;
-  padding: 25rem 0;
+  padding: 25rem 0 !important;
   margin-top: -20vh;
 }
 
 @media only screen and (max-width: 56.25em) {
   .section-about {
-    padding: 20rem 0;
+    padding-top: 20rem 0;
+  }
+}
+
+@media only screen and (max-width: 800em) {
+  .section-about {
+    padding-top: 18rem !important;
   }
 }
 

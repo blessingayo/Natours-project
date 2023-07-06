@@ -42,7 +42,12 @@ body{
     position: absolute;
     top: 4rem;
     left: 4rem;
+    height: 1rem;
 
+}
+
+.header__logo-box > .logo{
+    height: 5rem;
 }
 
 .header__logo{
