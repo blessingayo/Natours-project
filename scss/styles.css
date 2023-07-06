@@ -178,7 +178,6 @@ body {
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  /*font: size 16px;*/
   line-height: 1.7;
   color: #777;
 }
@@ -269,6 +268,7 @@ body {
   text-transform: uppercase;
 }
 
+
 .paragraphy {
   font-size: 1.6rem;
 }
@@ -310,9 +310,6 @@ body {
      font-size: 16px !important;
   }
 
-  /* .heading-tertiary{
-    font-size: 18px !important;
-  } */
 }
 
 .u-margin-bottom-big {
