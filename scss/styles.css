@@ -269,6 +269,7 @@ body {
   text-transform: uppercase;
 }
 
+
 .paragraphy {
   font-size: 1.6rem;
 }
@@ -310,9 +311,6 @@ body {
      font-size: 16px !important;
   }
 
-  /* .heading-tertiary{
-    font-size: 18px !important;
-  } */
 }
 
 .u-margin-bottom-big {
